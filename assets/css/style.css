@@ -1,0 +1,7 @@
+.linkF{
+    color: white;
+    text-decoration: none;
+}
+.linkF:hover{
+    color: yellow;
+}

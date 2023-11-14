@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -9,7 +9,46 @@
     <title>Taxômetro</title>
 </head>
 <body>
+    <nav class="bg-black">
+        <div class="py-3">
+            <h4 class="text-white text-center">Taxômetro</h4>
+        </div>
+    </nav>
 
+    <article>
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-md-6 m-auto border border-black">
+                    <p>DISCLAIMER: O Taxômetro tem como objetivo oferecer uma estimativa aproximada de custos de importação. Ressaltamos que não temos a intenção de prejudicar qualquer órgão, instituição ou empresa. Este serviço é prestado de maneira informativa, buscando facilitar a compreensão dos usuários sobre possíveis custos associados à importação, sem intuito de causar impactos negativos a terceiros.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <main class="pt-5">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-6 m-auto">
+                    <div class="text-center">
+                        <label for="valorP">Valor da importação:</label>
+                        <input type="text" class="form-control " id="valorP" placeholder="Valor da importação"><br>
+                        <button class="mt-3 pe-5 px-5 btn btn-dark">Calcular</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div>
+        <div id="resultado">
+
+        </div>
+    </div>
+
+    <footer class="fixed-bottom bg-black text-center text-white py-3">
+        Powered by <a href="" class="linkF">Luke</a>
+    </footer>
     <script src="assets/javascript/script.js"></script>
 </body>
 </html>
